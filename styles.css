@@ -1,0 +1,10 @@
+:root {
+    --dark-cyan: rgb(25, 162, 174);
+    --dark-desaturated-blue: rgb(45, 50, 72);
+    --dark-grayish-blue: rgb(106, 111, 129);
+    --dark-gray: rgb(150, 150, 150);
+}
+
+body {
+    font-size: large;
+}
