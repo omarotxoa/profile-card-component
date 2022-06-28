@@ -30,12 +30,12 @@ main {
     width: 18em;
     background-image: url(/images/bg-pattern-card.svg);
     background-repeat: no-repeat;
+    border-radius: 1em;
 }
 
 .wrapper {
     height: 75%;
     margin-top: 25%;
-    text-align: center;
 }
 
 section {
@@ -61,8 +61,25 @@ hr {
 }
 
 h1,
-section p {
+section p,
+footer p,
+footer a {
     color: var(--dark-desaturated-blue);
+}
+
+footer a:hover,
+footer a:active {
+    color: white;
+}
+
+.wrapper,
+footer {
+    text-align: center;
+}
+
+
+h1,
+section p {
     font-weight: 700;
 }
 
